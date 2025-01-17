@@ -283,8 +283,9 @@ http://www.tooplate.com/view/2098-health
     font-weight: 500;
   }
 
-  .navbar-default .navbar-brand .fa {
-    color: #a5c422;
+  .navbar-default .container-logo {
+    display: flex;
+    align-items: center;
   }
 
   .navbar-default .navbar-nav li.appointment-btn {
