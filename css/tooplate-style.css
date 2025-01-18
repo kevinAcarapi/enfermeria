@@ -141,7 +141,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .btn-blue {
-    background: #4267b2;
+    background: #3d3e7b;
   }
 
   .news-thumb {
@@ -258,13 +258,6 @@ http://www.tooplate.com/view/2098-health
       HEADER              
   -----------------------------------------*/
 
-  header {
-    background: #ffffff;
-    box-shadow: 0 2px 8px rgba(0,0,0,.075);
-    border: none;
-    margin-bottom: 0;
-    padding: 10px;
-  }
 
   /*---------------------------------------
       MENU              
@@ -756,6 +749,20 @@ http://www.tooplate.com/view/2098-health
     color: #ffffff;
   }
 
+  
+
+  #appointment .container .row .col-sm-6 {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 996px) {
+    #appointment .container  {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+    }
+  }
+
 
   /*---------------------------------------
      FOOTER              
@@ -925,39 +932,9 @@ http://www.tooplate.com/view/2098-health
       font-size: 1.5em;
     }
 
-    header {
-      height: inherit;
-    }
-    header span.date-icon {
-      border: 0;
-      padding-right: 0;
-      padding-left: 0;
-    }
-    header span.email-icon {
-      padding-top: 0;
-    }
-
     .navbar-default .navbar-nav li a {
       padding-right: 15px;
       padding-left: 15px;
-    }
-  }
-
-  @media only screen and (max-width: 992px) {
-    .slider .item {
-      background-position: center;
-    }
-
-    header {
-      padding-bottom: 10px;
-    }
-    header .text-align-right {
-      text-align: left;
-    }
-    header span {
-      padding-top: 0;
-      padding-left: 0;
-      padding-bottom: 0;
     }
   }
 
