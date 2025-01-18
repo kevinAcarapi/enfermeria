@@ -274,6 +274,7 @@ http://www.tooplate.com/view/2098-health
   .navbar-default .navbar-brand {
     color: #393939;
     font-weight: 500;
+    margin-left: 0 !important;
   }
 
   .navbar-default .container-logo {
