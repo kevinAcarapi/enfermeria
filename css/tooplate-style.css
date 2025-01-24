@@ -9,7 +9,19 @@ http://www.tooplate.com/view/2098-health
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
   body {
-    background: #ffffff;
+    /* background: #ffffff; */
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.742734593837535) 15%, rgba(0,212,255,1) 97%); */
+
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.6895133053221288) 20%, rgba(4,3,62,0.7707457983193278) 55%, rgba(31,30,102,0.8995973389355743) 75%); */
+
+    /* background: rgb(31,30,102);
+    background: linear-gradient(90deg, rgba(31,30,102,0.8995973389355743) 17%, rgba(4,3,62,0.7707457983193278) 55%, rgba(2,0,36,0.8463760504201681) 96%); */
+
+    background: rgb(31,30,102);
+background: linear-gradient(101deg, rgba(31,30,102,0.7847514005602241) 26%, rgba(4,3,62,0.7707457983193278) 55%, rgba(2,0,36,0.958420868347339) 96%);
+
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
   }
@@ -22,6 +34,11 @@ http://www.tooplate.com/view/2098-health
   h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
     line-height: inherit;
+    color: white !important;
+  }
+  
+  p {
+    color: white !important;
   }
 
   h1,h2,h3,h4 {
@@ -191,6 +208,11 @@ http://www.tooplate.com/view/2098-health
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  #news {
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.742734593837535) 15%, rgba(0,212,255,1) 97%); */
   }
 
   #news, #service {
@@ -568,7 +590,7 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   #news, #news-detail {
-    background: #f9f9f9;
+    /* background: #f9f9f9; */
   }
 
   #news-detail blockquote {
@@ -790,6 +812,17 @@ http://www.tooplate.com/view/2098-health
 
   .contact-info {
     padding-top: 10px;
+  }
+
+  .contact-info a {
+    display: block;
+    width: fit-content;
+  }
+
+  .contact-info p .icon-mail {
+    width: 40px;
+    margin-left: 6px;
+    margin-right: 6px;
   }
 
   .contact-info .fa {
